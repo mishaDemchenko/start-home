@@ -1,0 +1,51 @@
+@import url(./root/style.css);
+.chat__section {
+    min-height: 430px;
+    margin-top: 65px;
+}
+.chat__container {
+    display: flex;
+    flex-direction: row;
+    gap: clamp(0.625rem, -1.875rem + 12.5vw, 7.5rem);
+}
+.chat__text {
+    display: flex;
+    flex-direction: column;
+    max-width: 416px;
+    margin-top: 40px;
+}
+.chat-title {
+    font-family: var(--thirdly-font);
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0px;
+}
+.chat-text {
+    font-family: var(--primary-font);
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    margin-top: 16px;
+}
+.chat-button {
+    height: 48px;
+    width: 170px;
+    border-radius: 0px;
+    background-color: #000;
+    color: #fff;
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    border: none;
+    margin-top: 16px;
+}
+.chat__img {
+    height: 100%;
+    width: 600px;
+}

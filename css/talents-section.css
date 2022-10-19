@@ -1,0 +1,114 @@
+@import url(./root/style.css);
+.talents__section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+.talents__container {
+    display: flex;
+    flex-direction: column !important;
+}
+.talents__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.talents-subtitle {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.talents-title {
+    font-family: var(--primary-font);
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 16px;
+}
+.talents-text {
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 16px;
+    max-width: 404px;
+    margin-bottom: 45px;
+}
+.talents__container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+    justify-content: center;
+}
+.button__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 55px;
+}
+.talents-button {
+    height: 48px;
+    width: 170px;
+    background-color: #000;
+    border: none;
+    font-family: var(--primary-font);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+}
+.card {
+    height: 299px;
+    width: 252px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.card-container {
+    height: 260px;
+    width: 202px;
+    display: flex;
+    flex-direction: column;
+}
+.card__img {
+    margin-bottom: 19px;
+    align-self: center;
+}
+.talents-ui__container {
+    display: flex;
+    flex-direction: row;
+    gap: clamp(0.313rem, -7.75rem + 14.33vw, 3rem);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card-title {
+    font-family: var(--thirdly-font);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 17px;
+}
+.card-prof {
+    font-family: var(--primary-font);
+    color: #212529BF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+}

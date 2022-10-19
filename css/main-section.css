@@ -1,0 +1,59 @@
+@import url(./root/style.css);
+.main__section {
+    background-color: var(--primary-color);
+    min-height: 500px;
+}
+.main__container {
+    display: flex;
+    flex-direction: row;
+    gap: clamp(0.625rem, -1.875rem + 12.5vw, 7.5rem);
+}
+.main__text {
+    display: flex;
+    flex-direction: column;
+    max-width: 416px;
+    margin-top: 40px;
+}
+.main-subtitle {
+    font-family: var(--primary-font);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 5px;
+}
+.main-title {
+    font-family: var(--thirdly-font);
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0px;
+    margin-top: 15px;
+}
+.main-text {
+    font-family: var(--primary-font);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    margin-top: 15px;
+}
+.main-button {
+    height: 48px;
+    width: 170px;
+    border-radius: 0px;
+    background-color: #fff;
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    border: none;
+    margin-top: 25px;
+}
+.main__img {
+    height: 378px;
+    width: 644px;
+}
