@@ -84,6 +84,12 @@ select {
     max-width: 1180px;
     margin: 0 auto;
 }
+button {
+  transition: 1s;
+}
+button:hover {
+  background-color: var(--primary-color) !important;
+}
 a {
     text-decoration: none;
 }
